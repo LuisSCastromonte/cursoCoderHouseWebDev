@@ -1,0 +1,20 @@
+/*
+
+
+*/
+
+body{
+    background-color:beige;
+}
+header{
+    background-color: rgb(127, 255, 159);
+}
+nav{
+    background-color: blanchedalmond;
+}
+main{
+    background-color: rgb(127, 255, 159);
+}
+footer{
+    background-color: rgb(67, 134, 53);
+}
