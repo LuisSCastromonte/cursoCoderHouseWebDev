@@ -1,0 +1,12 @@
+body > * {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    text-align: justify;
+}
