@@ -3,21 +3,49 @@
 
 */
 
-body{
-    background-color:beige;
+body {
+    display: grid;
+    background-color: beige;
 }
-header{
+
+/* defino el disenio para la version desktop */
+@media all and (min-width: 720px) { 
+    body {
+        grid-template-columns: 200px auto;
+    }
+
+    header,
+    footer {
+        /* expando el primer casillero sobre el segundo */
+        grid-column: 1 / span 2; 
+    }
+    nav{
+        /* con esto hago que los links esten uno abajo del otro */
+        display: grid; 
+    }
+}
+
+header {
     background-color: rgb(127, 255, 159);
 }
-nav{
+
+nav {
     background-color: blanchedalmond;
     padding-left: 20px;
+
 }
-main{
+
+main {
     background-color: rgb(127, 255, 159);
     padding-right: 40px;
     padding-left: 40px;
 }
-footer{
+
+footer {
     background-color: rgb(67, 134, 53);
+}
+
+a:hover {
+    /* cambio el color de los links al pasar el mouse */
+    color:rgb(67, 134, 53);
 }
