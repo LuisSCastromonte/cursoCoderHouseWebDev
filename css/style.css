@@ -11,9 +11,12 @@ header{
 }
 nav{
     background-color: blanchedalmond;
+    padding-left: 20px;
 }
 main{
     background-color: rgb(127, 255, 159);
+    padding-right: 40px;
+    padding-left: 40px;
 }
 footer{
     background-color: rgb(67, 134, 53);
